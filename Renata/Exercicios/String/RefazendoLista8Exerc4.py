@@ -1,0 +1,5 @@
+palavra = input("Digite uma palavra: ").lower()
+caractere1 = input("Digite um caractere: ").lower()
+caractere2 = input("Digite outro caractere: ").lower()
+palavra = palavra.replace(caractere1,caractere2)
+print(palavra)

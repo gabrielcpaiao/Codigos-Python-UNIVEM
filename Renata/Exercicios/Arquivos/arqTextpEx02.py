@@ -1,0 +1,8 @@
+arq = open("teste.txt","a+")
+nome = input("Nome -> ")
+idade = input("Idade -> ")
+arq.write(f"Nome: {nome} - Idade: {idade}\n")
+arq.seek(0)
+pessoas = arq.read()
+print(pessoas)
+arq.close()

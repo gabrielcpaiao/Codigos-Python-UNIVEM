@@ -1,0 +1,11 @@
+L = ["Ana", "Roberta", "Claudio", "Antônio", "Júlia"]
+print("L -> ",L[0:5])
+print("L -> ",L[:5])
+print("L -> ",L[:])
+print("L -> ",L[:-1])
+print("L -> ",L[1:3])
+print("L -> ",L[1:4])
+print("L -> ",L[3:])
+print("L -> ",L[:3])
+print("L -> ",L[-1])
+print("L -> ",L[-2])

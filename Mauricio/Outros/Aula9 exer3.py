@@ -1,0 +1,9 @@
+inicio = 2
+n = 1
+soma = 0
+while (n<=9):
+    print(f"2^{n} + ", end="")
+    soma += 2**n
+    n +=1
+soma += 2**n
+print(f" 2^{n} =\n{soma}")
